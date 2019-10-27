@@ -396,7 +396,7 @@ function init() {
 };
 
 // Load data from data.csv
-d3.csv("/assets/data/data.csv").then((data, error) => {
+d3.csv("assets/data/data.csv").then((data, error) => {
     
     if (error) throw error;
   
